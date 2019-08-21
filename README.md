@@ -1,1 +1,1 @@
-# Zacklon
+# For use of containing codes that are solutions of problems in baekjoon
