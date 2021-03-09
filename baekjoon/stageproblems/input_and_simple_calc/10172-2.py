@@ -12,8 +12,8 @@ right now trying...
 multiline = '''
     |\_/|
     |q p|   /}
-    ( 0 )"""
+    ( 0 )"""\\
     |"^"`    |
-    ||_/=\\__|
+    ||_/=\\\\__|
     '''
 print(multiline)
