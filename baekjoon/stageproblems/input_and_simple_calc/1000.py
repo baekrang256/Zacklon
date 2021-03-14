@@ -1,6 +1,6 @@
 """
 DATE - 2019 - 08 - 22
-29056kb, 64ms
+28776kb, 76ms
 """
 
 import sys
