@@ -5,6 +5,8 @@ DATE - 2019/08/24
 
 """
 it is much simple to just use input() function
+if you don't know exactly about 'for', check this link
+https://wikidocs.net/22
 """
 
 import sys
