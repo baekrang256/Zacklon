@@ -15,6 +15,7 @@ DATE : 2021.3.20
 29887kb, 112ms
 
 little bit simpler solution
+can use input(), since we only call it once per case.
 """
 a = int(input())
 for i in range(a):
