@@ -3,6 +3,10 @@ DATE - 2019-08-24
 29056kb, 60ms
 """
 
+"""
+you can use input() to simplify the code
+"""
+
 import sys
 
 year = int(sys.stdin.readline())
