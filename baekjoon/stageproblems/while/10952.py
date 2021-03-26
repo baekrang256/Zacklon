@@ -1,13 +1,11 @@
 """
-DATE - 2019/08/25
-29056kb, 56ms
+DATE - 2021/3/27
+28776kb,68ms
 """
 
 import sys
-
 while True:
-    a = [int(k) for k in (sys.stdin.readline()).split()]
-    if a[0] == 0:
+    l = [int(k) for k in sys.stdin.readline().split()]
+    if l == [0,0]:
         break
-    else:
-        print(a[0]+a[1])
+    print(l[0]+l[1])
