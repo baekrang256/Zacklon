@@ -3,7 +3,7 @@
 147116kb, 672ms
 
 it doens't really matter to use input(), actually, since realine()/input() is only called two times per case.
-It took a long time for large n when splitting... but almost all of the codes were like that.
+It took a long time for large n when splitting... but most of the codes that used splitting was like that.
 """
 
 
