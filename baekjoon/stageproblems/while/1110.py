@@ -6,27 +6,24 @@ DATE - 2019/08/25
 import sys
 
 n = (sys.stdin.readline()).split()[0]
-N = 0
-last = n
+N = 0 #the number of cycle
+last = n #the starting number
 
 while True:
-    N += 1
-    if len(last) == 1:
-        gen = last
-        new = last + gen
-    else:
-        gen = str(int(last[0])+int(last[1]))
-        if len(gen) == 1:
-            new = last[1] + gen
-        else:
-            new = last[1] + gen[1]
-    if new[0] == '0':
-        new = new[1]
-    s = int(new)
-    r = int(n)
-    if s == r:
+    N += 1 #first, we add the count for the cycle.
+    if len(last) == 1: #if the number is 1-digit
+        gen = last #the generated nubmer is same as last
+        last = last + gen #making a new number
+    else: #if the number is 2-digit
+        gen = str(int(last[0])+int(last[1])) #the generated number is the sum of first and second digit.
+        if len(gen) == 1: #if that number is 1-digit
+            last = last[1] + gen #the case for making new number
+        else: # if the genrated number is 2-digit
+            last = last[1] + gen[1] #like this.
+    if last[0] == '0': #if the new number is two digit in string, so that it has 0 in front
+        last = last[1] #we only use the second number.
+    if int(last) == int(n):
         break
-    last = new
 
 print(N)
 
