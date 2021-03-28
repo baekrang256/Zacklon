@@ -25,3 +25,24 @@ for i in range(N):
         else:
             row = 1
     print(score)
+
+"""
+2021.3.28
+28776kb, 68ms
+Below used list.
+However the whole idea is typically same so it is meaningless.
+The reason I wrote the algorithm below is to show that we can change the string into list right away using list().
+"""
+import sys
+N = int(sys.stdin.readline())
+for i in range(N):
+    score = 0
+    row = 1
+    result = list(sys.stdin.readline())
+    for i in range(len(result)):
+        if result[i] == 'O':
+            score += row
+            row += 1
+        else:
+            row = 1
+    print(score)
