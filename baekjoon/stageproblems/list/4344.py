@@ -11,6 +11,7 @@ Above is the abstract description of a way to use the format function.
 https://brownbears.tistory.com/421
 Above shows the recommendation of the formatting that we should use for python version above 3.6.
 Which is a f-string formatting.
+
 The brief explanation of the f-string formatting exists in the first link.
 https://docs.python.org/3/reference/lexical_analysis.html#f-strings
 Above link shows the complicated explanation about f-string formatting.
@@ -18,8 +19,8 @@ Above link shows the complicated explanation about f-string formatting.
 f-string formatting's full name is actually formatted string literals.
 It is useful since it is straightforward like the following example in the link below.
 https://realpython.com/python-f-strings/
-f-string formatting is Really useful in classes and functions.
-To learn about things like '0.3f', you need to go home(...)
+It is also much faster compared to the other string formatting algorithm.
+Also, it allows you to use operations like printing 'a+b', while other formatting is hard or impossible to do that.
 """
 import sys
 N = int(sys.stdin.readline())
