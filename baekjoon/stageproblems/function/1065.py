@@ -24,3 +24,4 @@ print(Han_count(n))
 """
 I saw some solutions that used the condition of the problem to make the code simpler
 I just did the generalized version.
+"""
