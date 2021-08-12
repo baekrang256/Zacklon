@@ -2,6 +2,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+//모범힌트 보지 않고 그냥 낸 답안이다.
+//틀린건 아님. 잘 돌아간다.
+
 int main()
 {
     int m, n;
@@ -29,7 +32,7 @@ int main()
                 printf("*");
             else
             {
-                int L = i - 1, R = i + 1, U = j - 1, D = j + 1, count = 0;
+                int L = i - 1, R = i + 1, U = j - 1, D = j + 1, count = 0; //범위 이탈하는지 확인하기 위해 만든 상수다. L은 Left, R은 Right, U는 Up, D는 Down. count는 횟수 세기 위해 만들었다.
                 if (i == 0)
                     L += 1;
                 if (i == m - 1)
